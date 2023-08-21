@@ -1,21 +1,21 @@
 import './App.css';
+import Fortfolio from './page/Fortfolio';
 
 function App() {
-  const listMenu = [
-    { name: 'Home', link: '' },
-    { name: 'About', link: '' },
-    { name: 'Education', link: '' },
-    { name: 'Skills', link: '' },
-    { name: 'Contact me', link: '' },
-  ];
+  // const listMenu = [
+  //   { name: 'Home', link: '' },
+  //   { name: 'About', link: '' },
+  //   { name: 'Education', link: '' },
+  //   { name: 'Skills', link: '' },
+  //   { name: 'Contact me', link: '' },
+  // ];
   return (
-    <div className="App">
-      <header className="fixed w-full px-9 py-8 bg-transparent flex justify-between items-center z-100">
+    <div className="flex justify-center">
+      {/* <header className="fixed w-full px-9 py-8 bg-transparent flex justify-between items-center z-100">
         <a className=" text-[17px] text-[--text-color] font-bold cursor-pointer">
           Thinh
         </a>
         <div className="bx bx-menu" id="menu-icon"></div>
-
         <nav className="navbar transition-[0.3s] flex gap-14 ">
           {listMenu.map((item, index) => {
             return (
@@ -30,11 +30,8 @@ function App() {
           })}
         </nav>
       </header>
-
       <script src="https://unpkg.com/scrollreveal"></script>
-
       <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-
       <section className="home flex items-center py-[9%] ">
         <div className="home-content max-w-[60rem]">
           <h1 className="text-[5.6rem] font-bold p">
@@ -73,9 +70,10 @@ function App() {
           </a>
           <a href="#">
             <i className="bx bxl-linkedin"></i>
-          </a>
+  vscode-file://vscode-app/c:/Users/PC/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/code/electron-sandbox/workbench/workbench.html        </a>
         </div>
-      </section>
+      </section> */}
+      <Fortfolio />
     </div>
   );
 }
