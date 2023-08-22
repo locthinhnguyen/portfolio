@@ -7,7 +7,7 @@ export const Herder = () => {
     { name: 'Contact me', link: '' },
   ];
   return (
-    <herder className=" flex justify-center">
+    <section className=" flex justify-center">
       <div className="wrapper flex justify-between pt-10 px-20 pb-[120px] items-center">
         <div>
           <h2 className=" text-primaryColor text-[36px] font-bold">
@@ -31,6 +31,6 @@ export const Herder = () => {
           </ul>
         </div>
       </div>
-    </herder>
+    </section>
   );
 };

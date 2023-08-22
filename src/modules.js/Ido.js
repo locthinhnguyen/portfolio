@@ -13,7 +13,10 @@ export const Ido = () => {
         <div className="flex items-center gap-[60px]">
           {lisIdo.map((item) => {
             return (
-              <div className=" bg-bgColor2 py-[35px] px-[50px] w-[349px] h-[241px] flex flex-col gap-[30px]">
+              <div
+                key={item.job}
+                className=" bg-bgColor2 py-[35px] px-[50px] w-[349px] h-[241px] flex flex-col gap-[30px]"
+              >
                 <img
                   src={item.img}
                   alt="img"

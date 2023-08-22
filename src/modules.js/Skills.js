@@ -14,7 +14,7 @@ export const Skills = () => {
         <div className="flex justify-between gap-[120px] border py-[55px] px-[125px]">
           {listKills.map((item) => {
             return (
-              <div className="flex flex-col items-center">
+              <div key={item.language} className="flex flex-col items-center">
                 <span className=" text-thirdColor text-[72px] font-bold">
                   {item.percent}
                 </span>
